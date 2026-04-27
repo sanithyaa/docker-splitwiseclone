@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Splitwise Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+
+<div class="brand">
+Splitwise
+</div>
+
+<button class="nav-btn" onclick="goBack()">
+Groups
+</button>
+
+<button class="nav-btn settle" onclick="settleUp()">
+Settle Up
+</button>
+
+</div>
+
+
+<!-- MAIN -->
+<div class="main">
+
+<div class="header">
+
+<h2>Dashboard</h2>
+
+</div>
+
+
+<div class="container">
+
+
+<!-- ADD EXPENSE -->
+<div class="card">
+
+<h3>Add Expense</h3>
+
+<input id="desc" placeholder="Dinner">
+
+<input id="amount" placeholder="300">
+
+<input id="paidBy" placeholder="sanithya">
+
+<select id="category">
+
+<option>Food</option>
+<option>Travel</option>
+<option>Shopping</option>
+<option>Entertainment</option>
+<option>Other</option>
+
+</select>
+
+<button class="btn-green" onclick="addExpense()">
+Add Expense
+</button>
+
+</div>
+
+
+<!-- BALANCES -->
+<div class="card">
+
+<h3>Balances</h3>
+
+<div id="balances"></div>
+
+</div>
+
+
+<!-- EXPENSE FEED -->
+<div class="card">
+
+<h3>Activity</h3>
+
+<div id="expenses"></div>
+
+</div>
+
+
+<!-- CHART -->
+<div class="card">
+
+<h3>Spending Breakdown</h3>
+
+<canvas id="chart"></canvas>
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

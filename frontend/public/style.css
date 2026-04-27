@@ -1,0 +1,253 @@
+body {
+
+margin: 0;
+
+font-family: Inter, system-ui;
+
+background: #f1f5f9;
+
+}
+
+
+/* LAYOUT */
+
+.layout {
+
+display: flex;
+
+height: 100vh;
+
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+
+width: 240px;
+
+background: white;
+
+border-right: 1px solid #e5e7eb;
+
+padding: 20px;
+
+}
+
+
+.brand {
+
+font-size: 24px;
+
+font-weight: bold;
+
+color: #10b981;
+
+margin-bottom: 20px;
+
+}
+
+
+.nav-btn {
+
+width: 100%;
+
+padding: 12px;
+
+border: none;
+
+background: none;
+
+text-align: left;
+
+font-size: 15px;
+
+cursor: pointer;
+
+border-radius: 8px;
+
+}
+
+
+.nav-btn:hover {
+
+background: #f3f4f6;
+
+}
+
+
+.nav-btn.active {
+
+background: #10b981;
+
+color: white;
+
+}
+
+
+.nav-btn.settle {
+
+background: #ef4444;
+
+color: white;
+
+}
+
+
+/* MAIN */
+
+.main {
+
+flex: 1;
+
+}
+
+
+/* HEADER */
+
+.header {
+
+background: white;
+
+padding: 20px;
+
+border-bottom: 1px solid #e5e7eb;
+
+}
+
+
+/* CONTAINER */
+
+.container {
+
+padding: 20px;
+
+max-width: 700px;
+
+}
+
+
+/* CARD */
+
+.card {
+
+background: white;
+
+padding: 20px;
+
+margin-bottom: 20px;
+
+border-radius: 10px;
+
+border: 1px solid #e5e7eb;
+
+}
+
+
+/* INPUT */
+
+input, select {
+
+width: 100%;
+
+padding: 10px;
+
+margin-top: 10px;
+
+margin-bottom: 10px;
+
+border-radius: 6px;
+
+border: 1px solid #d1d5db;
+
+}
+
+
+/* BUTTON */
+
+.btn-green {
+
+background: #10b981;
+
+color: white;
+
+border: none;
+
+padding: 10px;
+
+border-radius: 6px;
+
+cursor: pointer;
+
+}
+
+
+.btn-green:hover {
+
+background: #059669;
+
+}
+
+
+/* GROUP */
+
+.group {
+
+padding: 15px;
+
+border: 1px solid #e5e7eb;
+
+border-radius: 8px;
+
+margin-bottom: 10px;
+
+cursor: pointer;
+
+}
+
+
+.group:hover {
+
+background: #f9fafb;
+
+}
+
+
+/* EXPENSE ROW */
+
+.expense-row {
+
+display: flex;
+
+gap: 12px;
+
+padding: 12px;
+
+border-bottom: 1px solid #f1f5f9;
+
+}
+
+
+/* AVATAR */
+
+.avatar {
+
+width: 36px;
+
+height: 36px;
+
+background: #10b981;
+
+color: white;
+
+border-radius: 50%;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+font-weight: bold;
+
+}

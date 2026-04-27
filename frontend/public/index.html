@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Splitwise</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="layout">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+
+<div class="brand">
+Splitwise
+</div>
+
+<button class="nav-btn active">
+Dashboard
+</button>
+
+</div>
+
+
+<!-- MAIN -->
+<div class="main">
+
+<div class="header">
+
+<h2>Groups</h2>
+
+</div>
+
+
+<div class="container">
+
+
+<div class="card">
+
+<h3>Create Group</h3>
+
+<input id="groupName" placeholder="Group name">
+
+<input id="members" placeholder="Members (e.g. sanithya,rahul,ananya)">
+
+<button class="btn-green" onclick="createGroup()">
+Create Group
+</button>
+
+</div>
+
+
+<div class="card">
+
+<h3>Your Groups</h3>
+
+<div id="groups"></div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

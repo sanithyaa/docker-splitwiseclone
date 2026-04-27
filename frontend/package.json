@@ -1,0 +1,6 @@
+{
+  "name": "splitwise-ui",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
